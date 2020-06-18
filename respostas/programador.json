@@ -1,0 +1,67 @@
+[
+	{
+		"pergunta": "Clique na reação que NÃO é uma linguagem de programação:\n\n1️⃣ - JavaScript\n2️⃣ - BDScript\n3️⃣ - DSAScript",
+		"resposta": ["3️⃣"],
+    "quantopcoes": 3
+	},
+  {
+		"pergunta": "Qual linguagem de programação não é **__VERDADEIRA__**?\n\n1️⃣ - JavaScript\n2️⃣ - Node\n3️⃣ - Lula",
+		"resposta": ["3️⃣"],
+    "quantopcoes": 3
+	},
+  {
+		"pergunta": "Qual destes trabalhos não há relação direta com programação?\n\n1️⃣ - Técnico de informática\n2️⃣ - Analistas de sistemas\n3️⃣ - Ator de novela da globo",
+		"resposta": ["3️⃣"],
+    "quantopcoes": 3
+	},
+  {
+		"pergunta": "Em 1948, quem inventou a linguagem de programação chamada \"Plankalkül\" ?\n\n1️⃣ - Dennis Ritchie \n2️⃣ - Ken Thompson\n3️⃣ - Konrad Zuse",
+		"resposta": ["3️⃣"],
+    "quantopcoes": 3
+	},
+  {
+		"pergunta": "Qual década foi criada a linguagem de programação \"Plankalkül\" ?\n\n1️⃣ - 40\n2️⃣ - 50\n3️⃣ - 60",
+		"resposta": ["1️⃣"],
+    "quantopcoes": 3
+	},
+  {
+		"pergunta": "Em qual ano foi criado a linguagem \"JavaScript\" ?\n\n1️⃣ - 1995\n2️⃣ - 2005\n3️⃣ - 2009",
+		"resposta": ["1️⃣"],
+    "quantopcoes": 3
+	},
+  {
+		"pergunta": "Quando foi lançada a última versão da linguagem \"JavaScript\" ?\n\n1️⃣ - 2018\n2️⃣ - 2019\n3️⃣ - 2020",
+		"resposta": ["1️⃣"],
+    "quantopcoes": 3
+	},
+  {
+		"pergunta": "Qual desses programas não serve para \"programação\" ?\n\n1️⃣ - Visual code studio\n2️⃣ - Atom\n3️⃣ - Pica-pau",
+		"resposta": ["3️⃣"],
+    "quantopcoes": 3
+	},
+  {
+		"pergunta": "No Discord, como é o nome dos \"Bots\" que fazem divulgação nas mensagens privadas?\n\n1️⃣ -  Nobots\n2️⃣ - Selfbots\n3️⃣ - Hellbots",
+		"resposta": ["2️⃣"],
+    "quantopcoes": 3
+	},
+  {
+		"pergunta": "Qual linguagem é recomendada na criação de Websites?\n\n1️⃣ - PHP\n2️⃣ - Java\n3️⃣ - Node",
+		"resposta": ["1️⃣"],
+    "quantopcoes": 3
+	},
+  {
+		"pergunta": "No Discord, qual site contém uma lista de bots?\n\n1️⃣ - top.gg\n2️⃣ - bots.gg\n3️⃣ - discord.app/bots",
+		"resposta": ["1️⃣"],
+    "quantopcoes": 3
+	},
+  {
+		"pergunta": "Qual o nome da empresa responsável pelo desenvolvimento da linguagem Java na década de 90?\n\n1️⃣ - Microsoft\n2️⃣ - Oracle\n3️⃣ - Sun Microsystems",
+		"resposta": ["3️⃣"],
+    "quantopcoes": 3
+	},
+  {
+		"pergunta": "HTML é linguagem de:\n\n1️⃣ - programação\n2️⃣ - marcação\n3️⃣ - interpretação",
+		"resposta": ["2️⃣"],
+    "quantopcoes": 3
+	}
+]

@@ -1,0 +1,77 @@
+[
+	{
+		"pergunta": "Clique na reação que NÃO é adequada para fazer live de jogos:\n\n1️⃣ - Facebook Gaming\n2️⃣ - Twitch\n3️⃣ - Instagram",
+        "resposta": ["3️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Qual foi a primeira empresa de stream's:\n\n1️⃣ - Youtube\n2️⃣ - Twitch\n3️⃣ - Progressive Networks",
+		"resposta": ["3️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Quais dessas plataformas não tem a função de stream:\n\n1️⃣ - Mixer\n2️⃣ - Facebook\n3️⃣ - Twitter",
+		"resposta": ["3️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Qual é a empresa de stream mais famosa atualmente:\n\n1️⃣ - Mixer\n2️⃣ - Twitch\n3️⃣ - Instagram",
+		"resposta": ["2️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Qual é o arquivo produzido para ser transmitido por streaming?\n\n1️⃣ - Bit Rates\n2️⃣ - File\n3️⃣ - MP4",
+		"resposta": ["1️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Em que ano a Twitch foi criada?\n\n1️⃣ - 2016\n2️⃣ - 2014\n3️⃣ - 2006",
+		"resposta": ["3️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "O que é uma stream:\n\n1️⃣ - APK\n2️⃣ - Distribuição digital\n3️⃣ - Forma de documento",
+		"resposta": ["2️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Qual desses bots de moderação existe na Twitch:\n\n1️⃣ - RobotClean\n2️⃣ - DayBot\n3️⃣ - NightBot",
+		"resposta": ["3️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "A Twitch permite react's de plataformas que não são afiliadas dela?\n\n1️⃣ - NÃO\n2️⃣ - SIM",
+		"resposta": ["1️⃣"],
+        "quantopcoes": 2
+    },
+    {
+		"pergunta": "Qual desses não é fundador da Twitch:\n\n1️⃣ - Hebert Spencer\n2️⃣ - Justin Kan\n3️⃣ - Kyle Vogt",
+		"resposta": ["1️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "O que significa stream:\n\n1️⃣ - Ao Vivo\n2️⃣ - Programa\n3️⃣ - Corrente",
+		"resposta": ["3️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "O que pode significar timeout/time out em uma STREAM:\n\n1️⃣ - Interromper uma ação fora das regras\n2️⃣ - Enviar um link\n3️⃣ - Um sub",
+		"resposta": ["1️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Qual desses comandos de moderação de chat de stream's no Mixer não existem:\n\n1️⃣ - /susurro\n2️⃣ - /giveway\n3️⃣ - /ban",
+		"resposta": ["1️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Qual tipo de stream deixa você rico?\n\n1️⃣ - Enganando troxa\n2️⃣ - Usando uma sacola de roupa\n3️⃣ - Jogando joguinho",
+		"resposta": ["3️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Qual streamer migrou para a Mixer com um contrato milionário?\n\n1️⃣ - Raul Gil\n2️⃣ - Ninja\n3️⃣ - Roberta Miranda",
+		"resposta": ["2️⃣"],
+        "quantopcoes": 3
+	}
+]

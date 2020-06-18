@@ -1,0 +1,60 @@
+const Discord = require("discord.js"); // puxando a livraria 'discord.js'
+var Jimp = require("jimp"); // puxando o NPM jimp (instale utilizando: npm i jimp)
+const db = require("quick.db");
+
+exports.run = async (client, message, args) => {
+  // setando a base com async
+
+  let money = db.get(`money_${message.guild.id}_${message.author.id}`);
+  let bank = db.get(`bank_${message.guild.id}_${message.author.id}`);
+  let usuario = message.author.username;
+  if (bank === null) bank = 0;
+  if (money > 9000000000) {
+    message.reply(`a`); // caso o membro nao escreva algo para por na imagem
+  } else {
+    if (money > 90000000000) {
+      // caso os caracteres sejam maior que 50
+      message.reply(
+        `você ultrapassou o limite de 50 caracteres. Você não quer uma edição feia ne?`
+      );
+    } else {
+      if (message.member.hasPermission("ATTACH_FILES")) {
+        // requisitando a permissao: ATTACH_FILES
+        var authorMessage = message;
+        message.channel.send("Processando...").then(message => {
+          // uma brincadeira, q iremos excluir essa mensagem e por outra
+          // imagem que puxaremos, no caso, do Laranjo
+          Jimp.read(
+            `https://cdn.discordapp.com/attachments/694893191018577960/703552782883618836/IMG_20200425_072701.jpg`,
+            function(err, image) {
+              if (err)
+                message.channel.send("Ocorreu um erro ao criar a imagem."); // caso ocorra um erro ao criar a imagem
+              Jimp.loadFont(Jimp.FONT_SANS_32_BLACK).then(function(font) {
+                // setando o tipo da fonte
+                image.print(font, 220, 40, usuario, 320);
+                image.print(font, 120, 235, money, 320);
+                image.print(font, 450, 235, bank, 320); // mexendo no local da fonte
+                var aguardeMessage = message; // criando umaa nova mensagem
+                image.getBuffer(Jimp.MIME_PNG, (err, buffer) => {
+                  // mudando para PNG a imagem e botando um buffer
+                  const attachment = new Discord.Attachment(
+                    buffer,
+                    "saldo.png"
+                  ); // o nome da imagem gerada
+                  message.channel.send(attachment).then(message => {
+                    // e por fim, a imagem
+                    aguardeMessage.delete(); // deletando a mensagem do inicio
+                  });
+                });
+              });
+            }
+          );
+        });
+      } else {
+        message.channel.send(
+          "Eu não tenho a permissão necessária para fazer isso. `ATTACH_FILES`"
+        ); // caso o bot nao possua permissao
+      }
+    }
+  }
+};

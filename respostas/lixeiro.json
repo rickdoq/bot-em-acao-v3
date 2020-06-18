@@ -1,0 +1,77 @@
+[
+	{
+		"pergunta": "Clique na reação que NÃO é um item reciclável:\n\n1️⃣ - Lata\n2️⃣ - Papelão\n3️⃣ - Maçã",
+        "resposta": ["3️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Qual dessas cores significa resíduos perigosos na reciclagem:\n\n1️⃣ - Vermelho\n2️⃣ - Laranja\n3️⃣ - Azul",
+		"resposta": ["2️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Qual desses produtos não é reciclável:\n\n1️⃣ - Etiquetas\n2️⃣ - Jornais\n3️⃣ - Adesivos",
+		"resposta": ["1️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Resíduos radioativos podem ser reciclados?\n\n1️⃣ - Sim\n2️⃣ - Não",
+		"resposta": ["1️⃣"],
+        "quantopcoes": 2
+    },
+    {
+		"pergunta": "Qual dessas opções não é tipo de reciclagem:\n\n1️⃣ - Transformação\n2️⃣ - Reaproveitamento\n3️⃣ - Conserto",
+		"resposta": ["3️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "O que significa a cor Azul na reciclagem:\n\n1️⃣ - Resíduos Medicinais\n2️⃣ - Papel/Papelão\n3️⃣ - Lixo orgânico",
+		"resposta": ["2️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Qual dessas cores significa metais:\n\n1️⃣ - Roxo\n2️⃣ - Vermelho\n3️⃣ - Amarelo",
+		"resposta": ["3️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Qual dessas cores significa plástico na reciclagem:\n\n1️⃣ - Laranja\n2️⃣ - Vermelho\n3️⃣ - Marrom",
+		"resposta": ["2️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Existe roxo na reciclagem?\n\n1️⃣ - Não\n2️⃣ - Sim",
+		"resposta": ["2️⃣"],
+        "quantopcoes": 2
+    },
+    {
+		"pergunta": "Qual dessas cores significa vidro na reciclagem:\n\n1️⃣ - Verde\n2️⃣ - Cinza\n3️⃣ - Ciano",
+		"resposta": ["1️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "O que significa a cor preta na reciclagem?\n\n1️⃣ - Algodão\n2️⃣ - Madeira\n3️⃣ - Papel",
+		"resposta": ["2️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Latas de tintas são recicláveis?\n\n1️⃣ - Sim\n2️⃣ - Não",
+		"resposta": ["2️⃣"],
+        "quantopcoes": 2
+    },
+    {
+		"pergunta": "Em que ano surgiu a reciclagem?\n\n1️⃣ - 1887\n2️⃣ - 1930\n3️⃣ - 1970",
+		"resposta": ["3️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Em qual país surgiu a reciclagem?\n\n1️⃣ - Alemanha\n2️⃣ - EUA\n3️⃣ - Dinamarca",
+		"resposta": ["1️⃣"],
+        "quantopcoes": 3
+    },
+    {
+		"pergunta": "Qual staff não serviria nem para lixeiro?\n\n1️⃣ - Aizeen\n2️⃣ - Icém\n3️⃣ - A opção A",
+		"resposta": ["1️⃣"],
+        "quantopcoes": 3
+	}
+]

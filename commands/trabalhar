@@ -1,0 +1,55 @@
+const db = require("quick.db");
+const Discord = require("discord.js");
+const ms = require("parse-ms");
+
+module.exports.run = async (bot, message, args) => {
+  if (!message.content.startsWith("!!")) return;
+
+  let user = message.author;
+  let author = await db.fetch(`work_${message.guild.id}_${user.id}`);
+
+  let timeout = 600000;
+
+  if (author !== null && timeout - (Date.now() - author) > 0) {
+    let time = ms(timeout - (Date.now() - author));
+
+    let timeEmbed = new Discord.RichEmbed()
+      .setColor("#FFFFFF")
+      .setDescription(
+        `Você trabalhou recentemente.\n\nTente novamente daqui a ${time.minutes}m ${time.seconds}s `
+      );
+    message.channel.send(timeEmbed);
+  } else {
+    let replies = [
+      "Programador",
+      "Construtor",
+      "Lixeiro",
+      "Moto Boy",
+      "Chefe",
+      "Mecanico",
+      "Streamer",
+      "Bombeiro",
+      "Taxista",
+      "Socorrista",
+      "Garçom",
+      "Careca",
+      "Lonely (WebGado)"
+    ];
+
+    let result = Math.floor(Math.random() * replies.length);
+    let amount = Math.floor(Math.random() * 80) + 1;
+    let turnos = db.fetch(`turno_${message.guild.id}_${user.id}`) + 1;
+    let embed1 = new Discord.RichEmbed().setColor("#FFFFFF").setDescription(
+      `Você trabalhou de ${replies[result]} e ganhou ${amount} coxinhas.` //\nTurnos: ${turnos}`
+    );
+    message.channel.send(embed1);
+    db.add(`turno_${message.guild.id}_${user.id}`, turnos);
+    db.add(`money_${message.guild.id}_${user.id}`, amount);
+    db.set(`work_${message.guild.id}_${user.id}`, Date.now());
+  }
+};
+
+module.exports.help = {
+  name: "work",
+  aliases: ["wr"]
+};
