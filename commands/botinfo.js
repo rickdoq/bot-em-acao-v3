@@ -42,6 +42,7 @@ exports.run = (client, message, args) => {
   var jurubeba = "**`Jurubeba#0007`**";
   var rick = "**`RickDOQ#5026 & StrykeKenSama#3586`**";
   var data = "**`12/04/2020`**";
+  var discloud = `[Discloud](https://discloudbot.com)`
   let embed = new Discord.MessageEmbed()
 
     .setTitle(`Bot Info`)
@@ -52,6 +53,7 @@ exports.run = (client, message, args) => {
     .addField(`**🖌| Idealizador:**`, jurubeba)
     .addField(`**🖥| Programadores:**`, rick)
     .addField(`**🗓| Iniciado em:**`, data)
+    .addField(`**🔌| Host:**`, discloud)
     .setColor("GREY");
 
   message.channel.send(embed);
