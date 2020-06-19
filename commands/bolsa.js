@@ -3,10 +3,10 @@ const db = require("quick.db");
 const ms = require("parse-ms");
 
 module.exports.run = async (bot, message, args) => {
- // if (!message.member.roles.has("710187345433067530"))
-  //  return message.channel.send(
-   //   `**Hey, você ainda não realizou o seu <#710181676260524083>.**`
-  //  );
+  if (!message.member.roles.has("710187345433067530"))
+    return message.channel.send(
+      `**Hey, você ainda não realizou o seu <#710181676260524083>.**`
+    );
 
   let user = message.author;
 
