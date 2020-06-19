@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 const ms = require("parse-ms");
 
 exports.run = async (client, message, args, config) => {
-  if (
+ /* if (
     message.author.id != "282999559385513984" &&
     message.author.id != "442093644657197067" &&
     message.author.id != "404313882757169153" &&
@@ -11,7 +11,7 @@ exports.run = async (client, message, args, config) => {
   )
     return message.channel.send(
       "❌ Você não tem permissão para usar esse comando."
-    );
+    );*/
 
   let timeout = 10800000;
 
